@@ -4,7 +4,15 @@
 <script>
 export default {
   name: 'CheckboxItem',
-  props: ['name', 'checked'],
+  props: {
+    id: [Number, String],
+    name: String,
+    checked: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+  },
   data() {
     return {}
   },

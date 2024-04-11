@@ -25,9 +25,9 @@ export default {
     return {
       idols: [
         { id: 1, name: 'BTS', checked: true },
-        { id: 2, name: 'Black Pink', checked: false },
-        { id: 3, name: 'EXO', checked: false },
-        { id: 4, name: 'ITZY', checked: false },
+        { id: 2, name: 'Black Pink' },
+        { id: 3, name: 'EXO' },
+        { id: 4, name: 'ITZY' },
       ],
     }
   },
